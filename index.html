@@ -10,13 +10,7 @@
     <title>Javascript</title>
 </head>
 <style>
-    table tr td input {
-        width: 100%;
-    }
-
-    table {
-        border: 1px solid black;
-    }
+    
 </style>
 
 <body>
@@ -55,21 +49,6 @@
         </tr>
     </table>
 
-
-    <script>
-        function myfun(value) {
-            document.getElementById("input").value += value;
-        }
-
-        function result() {
-            let x = document.getElementById("input").value;
-            let y = eval(x);
-            document.getElementById("input").value = y.toFixed(2);
-        }
-        function Clear() {
-            document.getElementById('input').value = "";
-        }
-    </script>
     <div id="nestedObj" style="padding-left: 20px;"></div>
     <script>
         const myObj = {
